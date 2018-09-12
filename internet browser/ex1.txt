@@ -1,0 +1,40 @@
+1.
+This response was obtained when typed GET /implementation.html.
+The implementation.html document actually exists so the response represent the
+content of the html document, together with a last message telling me that the
+connection was closed.
+<html>
+<body>
+
+<p style="text-align:center">The links included in this webpage were used to learn html and php</p>
+<p style="text-align:left">USED TO LEAR HTML</p>
+<p style="text-align:left"><a href="https://www.w3schools.com/html/">Link</a><br>w3schools.com</p>
+<p style="text-align:left">USED TO LEAR CSS</p>
+<p style="text-align:left"><a href="https://www.w3schools.com/CSS/">Link</a><br>w3schools.com</p>
+<p style="text-align:left">USED TO LEAR PHP</p>
+<p style="text-align:left"><a href="https://www.w3schools.com/php/">Link</a><br>w3schools.com</p>
+<p style="text-align:left"><a href="https://stackoverflow.com">Link</a><br>stackoverflow</p>
+<p style="text-align:left"><a href="http://php.net/manual/en/">Link</a><br>php</p>
+<p style="text-align:left">USED TO VALIDATE THE WEBPAGES</p>
+<p style="text-align:left"><a href="https://validator.w3.org/#validate_by_upload">Link</a><br>w3C</p>
+
+</body>
+</html>
+Connection closed by foreign host.
+
+2.
+This response was obtained when typed GET /net.html.
+The net.html document does not exist so the response tell me that there was an
+error which is that the document was not found, any of the documents matches
+with the name requested in the command.
+
+<head>
+<title>Error response</title>
+</head>
+<body>
+<h1>Error response</h1>
+<p>Error code 404.
+<p>Message: File not found.
+<p>Error code explanation: 404 = Nothing matches the given URI.
+</body>
+Connection closed by foreign host.

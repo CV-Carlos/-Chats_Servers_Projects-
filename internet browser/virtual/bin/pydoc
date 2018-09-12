@@ -1,0 +1,5 @@
+#!/home/intozcc8/COMP18112/ex1/virtual/bin/python3
+if __name__ == '__main__':
+    import sys, pydoc
+    sys.exit(pydoc.cli())
+
